@@ -1,7 +1,8 @@
 safe: false
 lsi: false
 highlighter: true
-markdown: maruku
-markdown_ext:  markdown,mkd,mkdn,md
+markdown: redcarpet
+redcarpet:
+        extensions: ["fenced_code_blocks", "autolink", "tables", "strikethrough"]
 permalink: /blog/:year/:month/:title.html
 encoding: utf-8
