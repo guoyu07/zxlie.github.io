@@ -1,5 +1,7 @@
 safe: false
 lsi: false
+highlighter: true
 markdown: kramdown
+markdown_ext:  markdown,mkd,mkdn,md
 permalink: /blog/:year/:month/:title.html
 encoding: utf-8
